@@ -46,7 +46,7 @@ EOF
 
 # chmod
 if [ ! -f "run.sh" ]; then
-	printf "\033[31mrun.py生成失败！！！\n\033[0m"
+	printf "\033[31mrun.sh生成失败！！！\n\033[0m"
 	exit 1
 else
 	chmod u+x run.sh
@@ -57,7 +57,7 @@ fi
 printf "\033[32m生成FaceFusion.app run.sh脚本...\n\033[0m"
 
 if [ ! -f "./Contents/MacOS/run.sh" ]; then
-	printf "\033[31mrun.py生成失败，请检查是否有Contents文件夹！！！\n\033[0m"
+	printf "\033[31mrun.sh生成失败，请检查是否有Contents文件夹！！！\n\033[0m"
 	exit 1
 fi
 
