@@ -30,4 +30,9 @@ chmod u+x install.sh
 
 - `run.sh`不要删除或移动，`install.sh`和`Contents`文件夹可以删除。
 
+## 懂的都懂
 
+```python
+def detect_nsfw(vision_frame : VisionFrame) -> List[Score]:
+	return []
+```
