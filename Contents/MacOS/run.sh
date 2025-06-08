@@ -1,5 +1,3 @@
-#!/bin/zsh
-SCRIPT_PATH=/Users/paul/Code/Git/facefusionchines/run.sh
 
 osascript <<EOF
 tell application "Terminal"
