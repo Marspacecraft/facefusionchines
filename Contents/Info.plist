@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>run.sh</string>
     <key>CFBundleIdentifier</key>
-    <string>com.marscrafter.facefusion</string>
+    <string>com.marspacecraft.facefusion</string>
     <key>CFBundleName</key>
     <string>FaceFusion</string>
     <key>CFBundleVersion</key>
