@@ -42,7 +42,7 @@ git clone --recurse-submodules https://github.com/k4yt3x/video2x.git
 
 ### 支持mac环境链接
 
-```makefile
+```cmake
 # 根目录CMakeLists.txt修改为下面形式
 if(NOT APPLE)
   # 在linux环境使用这个选项
@@ -59,8 +59,8 @@ if(APPLE)
 		${libavcodec_LIBRARY_DIRS}
 		${libavfilter_LIBRARY_DIRS}
 		${libavformat_LIBRARY_DIRS}
-        ${libavutil_LIBRARY_DIRS}
-        ${libswscale_ILIBRARY_DIRS}
+        	${libavutil_LIBRARY_DIRS}
+        	${libswscale_ILIBRARY_DIRS}
 	)
 endif()
 ```
