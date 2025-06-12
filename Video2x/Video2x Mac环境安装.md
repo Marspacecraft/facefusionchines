@@ -83,7 +83,7 @@ mkdir build && cd build
 
 # 运行 cmake，默认会使用系统安装的库
 # 如果你是 Apple Silicon 用户，可以加上 -DVIDEO2X_ENABLE_NATIVE=ON
-# 如果你是 Intel Silicon 用户，可以加上 -VIDEO2X_ENABLE_X86_64_V4=ON 或VIDEO2X_ENABLE_X86_64_V3=ON
+# 如果你是 Intel Silicon 用户，可以加上 -DVIDEO2X_ENABLE_X86_64_V4=ON 或 -DVIDEO2X_ENABLE_X86_64_V3=ON
 cmake -DVIDEO2X_ENABLE_NATIVE=ON .. 
 
 # 运行编译
@@ -113,7 +113,7 @@ brew install libomp
 
 ```bash
 # 设置CC和CXX编译器为llvm
-CC=$(brew --prefix llvm)/bin/clang CXX=$(brew --prefix llvm)/bin/clang++ cmake -DVIDEO2X_ENABLE_NATIVE=ON .. r
+CC=$(brew --prefix llvm)/bin/clang CXX=$(brew --prefix llvm)/bin/clang++ cmake -DVIDEO2X_ENABLE_NATIVE=ON .. 
 ```
 
 #### 如果能生成Makefile文件，基本就可以编译成功
